@@ -1,0 +1,24 @@
+footer {
+  position: relative; /* Or absolute */
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  
+  background-color: #FF9B2C;
+  text-align: center;
+}
+
+footer a {
+	color: #964F00;
+    text-decoration: none;
+    
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 570px) {
+	footer {
+		height: 30px;
+		padding: 5px;
+	}
+}

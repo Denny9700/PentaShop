@@ -1,0 +1,285 @@
+.cart_products {
+	margin: 0;
+	padding: 0;
+	
+	padding-top: 120px;
+}
+
+.cart_products table {
+	width: 100%;
+}
+
+.cart_products div {
+	display: inline-block;
+	
+	/*
+	border: 0.5px solid rgba(255,155,44,1);
+	border-width: 2px;
+	border-radius: 20px;
+	*/
+	
+	height: 200px;
+	width: 96%;
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	/*background-color: rgba(255,155,44,0.3);*/
+}
+
+.cart_products div img {
+	width: 158px;
+	height: 158px;
+	
+	float: left;
+	
+	margin-left: 16px;
+	margin-top: 16px;
+}
+
+.cart_products div .title {
+	height: 58px;
+	width: 66%;
+	float: left;
+	/*border: 1px solid green;*/
+	border: none;
+
+	margin: 0;
+	padding: 0;
+}	
+
+
+.cart_products div .author {
+	height: 28px;
+	width: 50%;
+	float: left;
+	/*border: 1px solid red;*/
+	border: none;
+
+	line-height: 0px;
+	margin: 0;
+	padding: 0;
+}
+
+.cart_products div .price {
+	height: 28px;
+	width: 50%;
+	float: left;
+	/*border: 1px solid blue;*/
+	border: none;
+
+	line-height: 0px;
+	margin: 0;
+	padding: 0;
+}
+
+.cart_products div .availability {
+	height: 28px;
+	width: 60%;
+	float: left;
+	/*border: 1px solid black;*/
+	border: none;
+
+	line-height: 0px;
+	margin: 0;
+	padding: 0;
+}
+
+.cart_products div .title p {
+	
+	float: left;
+	padding-top: 0px;
+	padding-left: 25px;
+
+	font-size: 24px;
+	
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+  	hyphens: auto;
+}
+
+.cart_products div .title p a {
+	text-decoration: none;
+	color: #FF9B2C;
+}
+
+.cart_products div .title p a:hover {
+	color: #964F00;
+}
+
+.cart_products div .author p {
+	float: left;
+	padding-top: 0px;
+	padding-left: 25px;
+	
+	font-size: 14px;
+	color: grey;
+	
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+  	hyphens: auto;
+}
+
+.cart_products div .price p {
+	float: left;
+	padding-top: 0px;
+	padding-left: 25px;
+	
+	font-size: 14px;
+	color: #B12704;
+	
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+  	hyphens: auto;
+}
+
+.cart_products div .availability p {
+	float: left;
+	padding-top: 0px;
+	padding-left: 25px;
+	
+	font-size: 14px;
+	
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+  	hyphens: auto;
+}
+
+.cart_products div .availability span {
+	color: red;
+	font-weight: bold;
+}
+.cart_products div .separator {
+	border-top: 0.3px solid black;
+	height: 2px;
+}
+
+.button_delete {
+	background-color: #FF9B2C;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 156px;
+	opacity: 0.9;
+	
+	float: left;
+	margin-bottom: 22px;
+}
+
+.button_delete:hover {
+	opacity: 1;
+}
+
+.button_buy {
+	background-color: #FF9B2C;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	opacity: 0.9;
+	
+	float: left;
+	margin-bottom: 22px;
+	width: 250px;
+}
+
+.button_buy:hover {
+	opacity: 1;
+}
+
+.cart_info {
+	float: right;
+	
+	/*border: 1px solid black;*/
+	height: 300px;
+	
+	margin: 10px 10px;
+	padding: 10px;
+}
+
+.total {
+	color: #FF9B2C;
+	font-size: 22px;
+	font-weight: bold;
+	
+	margin-bottom: 20px;
+}
+
+.t_money {
+	color: #B12704;
+	font-weight: bold;
+}
+
+.cart_info label {
+	color: grey;
+}
+
+.cart_info select {
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	width: 250px;
+	
+	box-shadow: 0 0 3px #FF9B2C;
+}
+
+.cart_info select:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+@media only screen and (max-width: 570px) {
+	
+	.cart_products {
+		padding-top: 120px;
+	}
+
+	.cart_products div img {
+		/*float: none;*/
+	}
+
+	.cart_products div {
+		margin-bottom: 300px;
+		float: none;
+	}
+
+	.cart_products div .title {
+		width: 100%;
+		height: 100px;
+		
+		float: none;
+	}
+
+	.cart_products div .author {
+		width: 100%;
+		
+		float: none;
+	}
+
+	.cart_products div .price {
+		width: 100%;
+		
+		float: none;
+	}
+
+	.cart_products div .availability {
+		width: 100%;
+		line-height: normal;
+		
+		float: none;
+	}
+
+	.cart_products div .separator {
+		margin-top: 50px;
+	}
+	
+	.button_delete {
+		float: none;
+		margin: 10 auto;
+	}
+}

@@ -1,0 +1,119 @@
+.insProduct{
+	width: 100%;
+    
+    margin: 0;
+    padding: 16px;
+    padding-top: 115px;
+}
+
+.insProdText {
+	margin-left: -12px;
+	padding-left: 0;
+}
+
+.insProdDiv label {
+	padding-left: 10px;
+}
+
+.product_img {
+	width: 158px;
+	height: 158px;
+	
+	float: left;
+	
+	margin-left: 0px;
+	margin-top: 28px;
+	
+	border: 1px solid black;
+}
+
+.button_upload {
+	background-color: #FF9B2C;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 156px;
+	opacity: 0.9;
+	
+	margin-bottom: 22px;
+}
+
+.button_upload:hover {
+	opacity: 1;
+}
+
+.button_prod {
+	background-color: #FF9B2C;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+
+.button_prod:hover {
+	opacity: 1;
+}
+
+.insProduct label {
+	padding-left: 10px;
+}
+
+.insProduct input[type=text], input[type=password], input[type=date] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	
+	box-shadow: 0 0 3px #FF9B2C;
+}
+
+.insProduct textarea {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	
+	box-shadow: 0 0 3px #FF9B2C;
+	resize: none;
+}
+
+.insProduct textarea:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+.insProduct select {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	
+	box-shadow: 0 0 3px #FF9B2C;
+}
+
+
+.insProduct input[type=text]:focus, input[type=password]:focus, input[type=date]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+.insProduct select:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+.insProduct hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 15px;
+}
